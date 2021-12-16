@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+/* bg pic */
+body{
+    background-image: url(bathroom.jpg);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+}
+.bg-c{
+    margin-left: 30vw;
+    height: 100vh;
+    width:70vw;
+    background-color: rgb(251, 251, 255); 
+}
+/* left side */
+
+.left-s{
+    background-color: rgb(216, 142, 5);
+    width: 30vw;
+    height: 100vh;
+}
+.words{ 
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 15.2vw;
+    /* background-color: rgba(245, 245, 245, 0.466); */
+    
+}
+/* social */
+.social{
+     position:absolute;
+     border-radius: 3vmax ;
+     width: 5vw;
+     height: 90vh;
+     margin: 1vh 0vw 0vh 1vw;
+    
+
+}
+.logo{
+    margin-top: 1vh;
+    margin-left: 1.2vw;
+    background:none;
+    color: whitesmoke;
+    width: 2.5vw;
+    height: 5vh;
+}
+.line-1{
+    position:absolute;
+    background-color: black;
+    width: 0.2vw;
+    height: 25vh;
+    margin-left: 2.4vw;
+    margin-top: 4vh;
+}
+
+.facebook{
+    margin-top: 32vh;
+    margin-left: 1.5vw;
+    /* background; */
+    color: whitesmoke;
+    width: 2vw;
+    height: 4vh;
+}
+
+.instagram{
+   
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+    background:none;
+    color: whitesmoke;
+    width: 2vw;
+    height: 4vh;
+}
+.twitter{
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+    background:none;
+    color: whitesmoke;
+    width: 2vw;
+    height: 4vh;
+}
+.line-2{
+    position:absolute;
+    background-color: black;
+    width: 0.2vw;
+    height: 25vh;
+    margin-left: 2.4vw;
+    margin-bottom: 6vh;
+    margin-top: 2vh;
+}
+ /* next previous buttons */
+ .n-p{
+     margin-top: 90vh;
+     position: absolute;
+     width: 7vw;
+     height: 7vh;
+     margin-left: 2vw;
+     display:flex;
+     justify-content:space-around;
+    
+ }
+ .l-f {
+     margin-top: 0.7vh;
+     background-color: rgba(248, 248, 255, 0.753);
+     border-radius: 2vmax;
+     width: 3vw;
+     height: 5vh;
+ }
+.n{
+    width: 1.5vw;
+    height: 3vh;
+    margin-top: 1vh;
+    margin-left: 0.6vw ;
+}
+
+.next {
+    margin-top: 0.7vh;
+    border-radius: 2vmax;
+    background-color: rgba(248, 248, 255, 0.397);
+    width: 3vw;
+    height: 5vh;
+
+}
+.ne{
+   width: 1.5vw;
+   height: 3vh;
+   margin-top: 1vh;
+   margin-left: 0.8vw ;
+}
+ 
+ /* words */
+h1{
+    color: whitesmoke;
+   letter-spacing: 5px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 9vmax;
+}
+.words>.bathroom{
+    margin-left: 0.5vw;
+    font-size: 2vmax;
+    color: rgb(107, 56, 7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    /* margin-left: 0.5vw; */
+    padding: 1.5vh 2.5vw;
+    margin-left: 0.5vw;
+    margin-top: 5vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+/* photos */
+.photos-b{
+    margin-top: 78vh; 
+    width: 35vw;
+    height: 20vh;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 31vw;
+
+
+}
+.pic-1{
+    background-position: center;
+    background-size: cover;
+    background-image: url(pic-1.jpeg);
+    height: 16vh;
+    width: 9vw;
+    margin-top: 2vh;
+    
+
+}
+.pic-2{
+    background-position: center;
+    background-size: cover;
+    background-image: url(pic-2.jpeg);
+    height: 16vh;
+    width: 9vw;
+    margin-top: 2vh;
+}
+.pic-3{
+    background-position: center;
+    background-size: cover;
+    background-image: url(pic-3.jpg);
+    height: 16vh;
+    width: 9vw;
+    margin-top: 2vh;
+}
+
+.black{
+      
+    margin-top: 63vh;
+    position: absolute;
+    width: 7vw;
+    height: 7vh;
+    margin-left: 90vw;
+    margin-bottom: 30vh;
+    display:flex;
+    justify-content:space-around;
+}
+
+.black-b{
+    margin-top: 0.7vh;
+    width: 2vw;
+    height: 3.9vh;
+}
+.white-b{
+    margin-top: 0.7vh;
+    width: 2vw;
+    height: 4vh;
+}
+
+.n-w{
+    color: white;
+    position: relative;
+    width: 30vw;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.425);
+    margin-left: 67vw;
+    margin-top: 70vh;
+}
+ h4{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 6vh;
+    padding-left: 4vw;
+ }
+ .design{
+    letter-spacing: 2PX;
+    font-family: 'Ropa Sans', sans-serif;
+    padding-top: 0vh;
+    padding-left: 4.1vw;
+ }
+p{
+    
+    padding-top: 2vh;
+    padding-left: 4vw;
+    font-family: 'Noto Sans', sans-serif;
+}
+.navbar{
+    
+    color: white;
+    position: absolute;
+    width: 30vw;
+    height: 30vh;
+    margin-left: 70vw;
+    margin-top: 30vh;
+}
+ul{
+    margin-left: 18vw;
+    font-family: 'Noto Sans', sans-serif;
+    list-style: none;
+    line-height: 5vh;
+    margin-top: 5vh;
+    
+}
+.a-2 {
+    font-weight: 600;
+    margin-right:auto ;
+    color: rgb(107, 56, 7); 
+}
+
+
+.menu{
+    margin-top: 2vh;
+    margin-left: 93.9vw;
+    position: absolute;
+    background-color:rgb(243, 169, 32);
+    width:3.5vw;
+    height: 7vh;
+} 
+.menu-pic{
+    margin-top: 1vh;
+    margin-left: 0.3vw;
+    width:3vw;
+    height: 5vh;
+}
+a{
+   
+     text-decoration: none; 
+}
